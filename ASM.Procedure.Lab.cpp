@@ -1,9 +1,10 @@
 ﻿#include <iostream>
 
-extern "C" int sqr(int);
+extern "C" int proc1(int);
+extern "C" int proc2(int);
 
 int main()
 {
-    std::cout << sqr(10);
+    std::cout << proc1(1)<< std::endl << proc2(10);
     return 0;
 }
